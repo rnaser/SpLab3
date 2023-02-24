@@ -206,4 +206,24 @@ label {
 
 
 /* ===== STATE STYLES ======= */
+@font-face{
+  font-family: "ShadowsIntoLight-Regular";
+	src: url(font/ShadowsIntoLight-Regular.ttf); 
+}
+@font-face{
+  font-family: "amatic";
+	src: url(font/Amatic_SC/AmaticSC-Regular.ttf);
+}
+@font-face{
+  font-family: "amaticBold";
+	src: url(font/Amatic_SC/AmaticSC-Bold.ttf); 
+}
 
+#input-email{
+}
+#content{
+}
+#input-age-verification{
+}
+#input-submit{
+}
