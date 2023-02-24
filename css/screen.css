@@ -240,6 +240,7 @@ label {
   width: 100%;
   padding: 12px 20px;
   color: blue;
+  text-align: center;
 }
 #input-age-verification{
   display: block;
