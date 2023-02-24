@@ -263,6 +263,10 @@ h1{
   width: 100%;
   
 }
+#submit{
+  display: inline-block;
+}
+
 
 @media screen and (min-width: 510px) {
   
