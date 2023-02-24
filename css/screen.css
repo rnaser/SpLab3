@@ -224,17 +224,22 @@ label {
 }
 
 
-
+h1{
+  display: inline-block;
+  text-align: center;
+}
+  
 #input-email{
   font-size: 1.5em;
-  display: block;
+  display: inline-block;
   text-align: center;
   margin: 0 1.5%
   width: 100%;
-  
+  background: black;
   
 }
 #content{
+  background: lightgray;
   font-size: 1.5em;
   font-family: "amatic";
   width: 100%;
@@ -243,7 +248,7 @@ label {
   text-align: center;
 }
 #input-age-verification{
-  display: block;
+  display: inline-block;
   text-align: center;
   font-size: 1.5em;
   background-color: gray;
@@ -256,6 +261,7 @@ label {
   text-align: center;
   margin: 0 1.5%
   width: 100%;
+  
 }
 
 @media screen and (min-width: 510px) {
@@ -281,6 +287,7 @@ label {
 input{ 
   width: 90%;
   padding: 12px 12px;
+  font-size:1.2em;
 }
 
 
