@@ -218,12 +218,85 @@ label {
   font-family: "amaticBold";
 	src: url(font/Amatic_SC/AmaticSC-Bold.ttf); 
 }
+@font-face{
+  font-family: "Tilt";
+	src: url(font/TiltPrism-Regular-VariableFont_XROT,YROT.ttf); 
+}
+
+
 
 #input-email{
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  margin: 0 1.5%
+  width: 100%;
+  
+  
 }
 #content{
+  font-size: 1.5em;
+  font-family: "amatic";
+  width: 100%;
+  padding: 12px 20px;
+  color: blue;
 }
 #input-age-verification{
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: gray;
+  margin: 0 1.5%
+  width: 100%;
 }
 #input-submit{
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  margin: 0 1.5%
+  width: 100%;
+}
+
+@media screen and (min-width: 510px) {
+  
+
+  #input-email{
+    font-size: 1.2em;
+    width: 85%;
+  }
+  #content{
+    font-family: "ShadowsIntoLight-Regular";
+    font-size: 1.2em;
+  }
+  #input-age-verification{
+    font-size: 1.2em;
+    width: 85%;
+  }
+  #input-submit{
+    font-size: 1.2em;
+    width: 85%;
+  }
+}
+input{ 
+  width: 90%;
+  padding: 12px 12px;
+}
+
+
+@media screen and (min-width: 720px) {
+  
+  
+  #input-email{
+    width: 75%;
+   
+  }
+  #content{
+    font-family: 'Tilt';
+  }
+  #input-age-verification{
+    width: 75%;
+  }
+  #input-submit{
+    width: 75%;
+  }
 }
